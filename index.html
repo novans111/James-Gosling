@@ -28,7 +28,7 @@
             <ul>
             <li><a href="#about">Введение</a></li>
             <li><a href="#articles">Информация</a></li>
-            <!-- <li><a href="feedback">Обратная связь</a></li> -->
+            <li><a href="feedback">Обратная связь</a></li>
             </ul>
         </nav>    
     </header>
@@ -50,17 +50,26 @@
             <li><a href="achievement.html">Достижения</a></li>
             <li class="termins"><a href="termins.html">Термины</a></li>
             </ol>
-        <!-- </section>
+        </section>
         <section class="feedback" id="feedback">
             <h2>Обратная связь</h2>
-            <form action="">
-                <label for="">Введите логин</label><br>
-                <input type="text" placeholder="Логин" name="login" id="login"><br>
-                <label for="">Введите пароль</label><br>
-                <input type="password" placeholder="Пароль" name="password" id="pass"><br>
-                <input type="submit" placeholder="Войти"><br>
-
-        </section> -->
+            <form id="contact-form">
+                <br><label for="topic">Тема</label></br>
+                <select name="topic" id="topic">
+                    <option value="1">Заказать услугу</option>
+                    <option value="2">Оставить отзыв/замечание</option>
+                    <option value="3">Предложить сотрудничество</option>
+                    <option value="4">Другое</option>
+                </select>
+                <div><br><label for="">Введите логин</label></br>
+                <br><input type="text" placeholder="Логин" name="login" id="login"></br></div>
+                <div><br><label for="">Введите пароль</label></br>
+                <br><input type="password" placeholder="Пароль" name="password" id="pass"></br></div>
+                <div><br><label for="">Введите текст</label></br>
+                <br><input type="forms" placeholder="Текст" name="forms" id="forms"></br></div>    
+                <div><br><input type="submit" placeholder="Войти"></br></div>
+            </form>
+        </section>
     </main>
     <footer class="basement" id="basement">
         <p><img src="images/person-circle.svg"  alt="photo">&copy;<a href="https://suut.ural-campus.ru/struktura/">Павлов Иван</a> ,<time>03.09.2026</time></p>
